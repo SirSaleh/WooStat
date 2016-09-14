@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Plugin Name: orders statistics
+ * Plugin Name: WooStat
  * Plugin sirsaleh.com
- * Description: This Plugin Made to give a simple statistics about orders.
+ * Description: This Plugin Made to give a simple statistics about orders of Woocommerce.
  * Author: SirSaleh
  * Author URI: sirsaleh.com
- * Version: 1.0.1
+ * Version: 1.0
  *
- * Copyright: (c) 2015-2015 SkyVerge, Inc. (info@skyverge.com)
+ *
  *
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
