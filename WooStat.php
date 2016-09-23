@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Plugin Name: WooStat
+ * Plugin Name: orders statistics
  * Plugin sirsaleh.com
- * Description: This Plugin Made to give a simple statistics about orders of Woocommerce.
+ * Description: This Plugin Made to give a simple statistics about orders.
  * Author: SirSaleh
  * Author URI: sirsaleh.com
- * Version: 1.0
+ * Version: 1.0.1
  *
- *
+ * Copyright: (c) 2015-2015 SkyVerge, Inc. (info@skyverge.com)
  *
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -29,7 +29,8 @@ require_once('total_amount_of.php');
 
 
 function my_plugin_menu() {
-	add_dashboard_page( 'My Plugin Options', 'Orders Statistics', 'manage_options', 'my-unique-identifier', 'my_plugin_options' );
+	add_submenu_page( 'woocommerce', 'WooStat', 'WooStat', 'manage_options', 'Woostat', 'my_plugin_options' );
+	//add_dashboard_page( 'My Plugin Options', 'Orders Statistics', 'manage_options', 'my-unique-identifier', 'my_plugin_options' );
 }
 add_action( 'admin_menu', 'my_plugin_menu' );
 
