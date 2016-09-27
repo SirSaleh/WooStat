@@ -24,9 +24,9 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-require_once('orders_of_product.php');
-require_once('total_amount_of.php');
-require_once('total-paid.php');
+require_once('includes/orders_of_product.php');
+require_once('includes/total_amount_of.php');
+require_once('includes/total-paid.php');
 
 
 function my_plugin_menu() {
