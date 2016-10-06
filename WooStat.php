@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name: orders statistics
- * Plugin sirsaleh.com
+ * Plugin URI: https://github.com/SirSaleh/WooStat
  * Description: This Plugin Made to give a simple statistics about orders.
  * Author: SirSaleh
- * Author URI: sirsaleh.com
+ * Author URI: http://sirsaleh.com
  * Version: 1.0.1
  *
  * 
