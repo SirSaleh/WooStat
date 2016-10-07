@@ -30,14 +30,14 @@ require_once('includes/total-paid.php');
 
 
 function my_plugin_menu() {
-	add_submenu_page( 'woocommerce', 'WooStat', 'WooStat', 'manage_options', 'Woostat', 'my_plugin_options' );
+	add_submenu_page( 'woocommerce', 'WooStat', 'WooStat', 'manage_options', 'Woostat', 'WooStat_Page' );
 	//add_dashboard_page( 'My Plugin Options', 'Orders Statistics', 'manage_options', 'my-unique-identifier', 'my_plugin_options' );
 }
 add_action( 'admin_menu', 'my_plugin_menu' );
 
 
 
-function my_plugin_options() {
+function WooStat_Page() {
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'Access denied!' ) );
 	}
