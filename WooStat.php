@@ -78,11 +78,11 @@ function WooStat_Page() {
 							}
 							echo ("<th style='border-left: 1px solid black;' >".$sum."</th><th style='border-left: 1px solid black;' >".$total_sum."</th><th style='border-left: 1px solid black;' >".$total_paid."</th>");
 						}else{
-							echo ("<th style='border-left: 1px solid black;' >No</th><th style='border-left: 1px solid black;' >0</th><th style='border-left: 1px solid black;' >0</th>");
+							echo ("<th style='border-left: 1px solid black;' >0</th><th style='border-left: 1px solid black;' >0</th><th style='border-left: 1px solid black;' >0</th>");
 						}
 					//wc_get_template_part( 'content', 'product' );
 					}else{
-							echo ("<th style='border-left: 1px solid black;' >No</th><th style='border-left: 1px solid black;'>0</th><th style='border-left: 1px solid black;' >0</th>");
+							echo ("<th style='border-left: 1px solid black;' >0</th><th style='border-left: 1px solid black;'>0</th><th style='border-left: 1px solid black;' >0</th>");
 					}
 					echo ("</tr>");
 				}
